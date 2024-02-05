@@ -1,8 +1,18 @@
 /* Reset */
-* {
+*,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+}
+
+/* General */
+a {
+    text-decoration: none;
+    color: #4EA0FF;
+    cursor: pointer;
 }
 
 /* Header */
@@ -16,4 +26,40 @@ header {
 
 .logo img {
     width: 25%;
+}
+
+/* Titolo e credits */
+article h1 {
+    margin: 20px 3px;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.author,
+.data {
+    font-size: 1.5rem;
+    margin: 0 3px;
+    color: #9b9b9b;
+}
+
+.data {
+    font-size: 1rem;
+}
+
+/* Immagine e dida */
+figure {
+    padding: 40px 3px;
+    width: 100%;
+}
+
+figure img.img-lg {
+    width: 53%;
+}
+
+figure img.img-sm {
+    width: 45.5%;
+}
+
+.article-text {
+    padding: 15px 3px;
 }
