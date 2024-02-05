@@ -74,6 +74,7 @@ table {
     text-align: left;
     border: none;
     border-collapse: collapse;
+    margin: 0px 3px;
 }
 
 td {
@@ -89,4 +90,35 @@ th {
 
 tr:nth-child(odd) {
     background-color: #B1E5F2;
+}
+
+/* Aside */
+aside {
+    margin: 30px 3px;
+}
+
+aside h2 {
+    font-size: 1.5rem;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+}
+
+.related-article {
+    width: 320px;
+    height: 250px;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.article-1 {
+    background: url('../img/monitor.jpg');
+    background-size: cover;
+}
+
+.article-2 {
+    background: url('../img/graph.jpg');
+    background-size: cover;
 }
