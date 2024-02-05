@@ -1,0 +1,19 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    padding: 70px 3px 10px 3px;
+}
+
+.header {
+    background: #4EA0FF url("../img/pattern.png") repeat-x;
+}
+
+.logo img {
+    width: 25%;
+}
