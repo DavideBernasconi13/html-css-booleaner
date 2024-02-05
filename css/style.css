@@ -63,3 +63,30 @@ figure img.img-sm {
 .article-text {
     padding: 15px 3px;
 }
+
+.unorderd-list ul {
+    padding: 40px 25px;
+}
+
+/* Table  */
+table {
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-collapse: collapse;
+}
+
+td {
+    width: 33.33333%;
+}
+
+th {
+    border: none;
+    background: #20A9E5;
+    color: #fff;
+    font-weight: 800;
+}
+
+tr:nth-child(odd) {
+    background-color: #B1E5F2;
+}
